@@ -4,17 +4,15 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+html, body {
+  font-family: 'Maven Pro', sans-serif;
+}
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
-}
-
-/* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -90,4 +88,21 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+.splash {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/back.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  color: #FFF;
+  text-shadow: 0 1px 0 #000;
+  position: relative;
+}
+
+.pgquote {
+  text-align: center;
+  color: #666;
+  font-style: italic;
 }
