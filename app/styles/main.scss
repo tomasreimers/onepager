@@ -5,6 +5,8 @@ $icon-font-path: '../fonts/';
 html,
 body {
     font-family: 'Maven Pro', sans-serif;
+    height: 100%;
+    width: 100%;
 }
 
 .browserupgrade {
@@ -129,4 +131,9 @@ body {
 #application-btn:active {
   outline: none;
   border: none;
+}
+
+.google-iframe {
+  height: 100%;
+  width: 100%;
 }
