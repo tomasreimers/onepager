@@ -116,6 +116,12 @@ body {
     font-style: italic;
 }
 
+.apply-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
 #application-btn {
     height: 80px;
     font-size: 40px;
