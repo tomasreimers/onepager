@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .how-it-works {
   padding-top: 20px;
 }
@@ -14,6 +15,8 @@
   margin-top: 10px;
 }
 
+=======
+>>>>>>> ab39164e6e7654d2656caa06a610163cdac021b1
 /*
 
 Merlin - Responsive One Page Template
@@ -306,14 +309,24 @@ a:focus {
   text-shadow: none;
 }
 #about .content { padding-bottom: 0 }
+<<<<<<< HEAD
 #about .teammate {
   margin-top: 60px;
   margin-bottom: 60px;
+=======
+#about .teammate { 
+  margin-top: 60px; 
+  margin-bottom: 60px; 
+>>>>>>> ab39164e6e7654d2656caa06a610163cdac021b1
 }
 #about .teammate .bio { padding-top: 10px }
 #about .teammate .profile-photo {
   overflow: hidden
+<<<<<<< HEAD
 }
+=======
+}     
+>>>>>>> ab39164e6e7654d2656caa06a610163cdac021b1
 #about .teammate .profile-photo img {
 /*  -webkit-transition: all .4s ease;
      -moz-transition: all .4s ease;
@@ -322,7 +335,12 @@ a:focus {
           transition: all .4s ease;*/
   margin-left:auto;
   margin-right:auto;
+<<<<<<< HEAD
   height: 80px;
+=======
+  width: 165px; 
+  height: 165px; 
+>>>>>>> ab39164e6e7654d2656caa06a610163cdac021b1
 }
 /*#about .teammate:hover .profile-photo img,
 #about .teammate:focus .profile-photo img {
@@ -393,6 +411,7 @@ a:focus {
 #footer .social li .dribbble:focus { color: #ea4c89 }
 #footer .copyright { margin-bottom: 0 }
 /* Responsive style */
+<<<<<<< HEAD
 @media screen and (max-width: 1024px) {
   #testimonials .carousel-control { display: block }
 }
@@ -401,11 +420,25 @@ a:focus {
   #testimonials .quote { padding: 0 70px }
 }
 @media (max-width: 767px) {
+=======
+@media screen and (max-width: 1024px) { 
+  #testimonials .carousel-control { display: block }
+}
+@media screen and (max-width: 991px) { 
+  #portfolio .items li { width: 50% }
+  #testimonials .quote { padding: 0 70px }
+}
+@media (max-width: 767px) { 
+>>>>>>> ab39164e6e7654d2656caa06a610163cdac021b1
   .page .content.cover { padding: 160px 0 }
   #testimonials .quote { padding: 0 50px }
   #testimonials .carousel-control.right { right: 10px }
 }
+<<<<<<< HEAD
 @media (max-width: 480px) {
+=======
+@media (max-width: 480px) { 
+>>>>>>> ab39164e6e7654d2656caa06a610163cdac021b1
   .page .content.cover { padding: 80px 0 }
   #portfolio .items li { width: 100% }
   #testimonials .quote { padding: 0 30px }
