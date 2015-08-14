@@ -355,6 +355,7 @@ a:hover, a:focus {
   margin-left: auto;
   margin-right: auto;
   max-height: 80px;
+  vertical-align: middle;
 }
 .medium-btn {
   margin-left: auto;
