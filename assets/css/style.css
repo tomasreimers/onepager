@@ -354,7 +354,7 @@ a:hover, a:focus {
 #about .teammate .profile-photo img {
   margin-left: auto;
   margin-right: auto;
-  height: 80px;
+  max-height: 80px;
 }
 .medium-btn {
   margin-left: auto;
