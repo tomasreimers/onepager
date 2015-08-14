@@ -344,12 +344,20 @@ a:hover, a:focus {
 #about .teammate {
   margin-top: 60px;
   margin-bottom: 60px;
+  height: 100%;
 }
 #about .teammate .bio {
   padding-top: 10px
 }
 #about .teammate .profile-photo {
-  overflow: hidden
+  overflow: hidden;
+  height: 100%;
+}
+#about .teammate .profile-photo::before {
+  height: 100%;
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;
 }
 #about .teammate .profile-photo img {
   margin-left: auto;
